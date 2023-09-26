@@ -2,17 +2,15 @@
 
 ![Screenshot](screenshot.png)
 
-Glowing 2D Pong is a classic Pong game with a modern twist. 
-In this game, players can play against the other player in local multiplayer mode.
+Glowing 2D Pong is a platformer game with dark and creepy theme. 
+In this game, players must go from the start point to end point while dodging obstacle and unlocking path by solving the puzzle.
 One of the exciting features of this game is the dazzling light effects that add a visually captivating element to the gameplay.
-
 
 ## Features
 
-- Classic 2D Pong game with dazzling light effects.
-- Multi-player mode.
-- Fun sound effects and background music.
-- Recorded player scores.
+- Platformer game with a dark and creepy theme.
+- Single player mode.
+- Eerie sound effects and background music.
 
 ## Player Control 
 
@@ -20,10 +18,9 @@ Player can use these button to control the paddle on the game
 
 | Key          | Function          | Description             |
 | ------------ | ----------------- | ----------------------- |
-| W            | Player 1 Move Up  | Move the first player's paddle up    |
-| S            | Player 1 Move Down| Move the first player's paddle down  |
-| Up Arrow     | Player 2 Move Up  | Move the second player's paddle up   |
-| Down Arrow   | Player 2 Move Down| Move the second player's paddle down |
+| A            | Player Move Left  | Move the player's character to the left direction |
+| D            | Player Move Right | Move the player's character to the right direction|
+| [Space] Button | Player Jump Move| Move the player's up by making a jump action  |
 
 ## Supporting Scripts
 
