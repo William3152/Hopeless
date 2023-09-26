@@ -2,7 +2,7 @@
 
 ![Screenshot](screenshot.png)
 
-Glowing 2D Pong is a platformer game with dark and creepy theme. 
+Hopeless is a platformer game with dark and creepy theme. 
 In this game, players must go from the start point to end point while dodging obstacle and unlocking path by solving the puzzle.
 One of the exciting features of this game is the dazzling light effects that add a visually captivating element to the gameplay.
 
