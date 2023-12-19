@@ -28,12 +28,14 @@ These are scripts that used to help run the game.
 
 | Script Name           | Description                                          |
 | --------------------- | ---------------------------------------------------- |
-| `BallControl.cs`      | Controls the behavior of a ball, including its initial launch and how it interacts with player objects.  |
-| `GameManager.cs`      | Manages the scores of two players in a game, updates the UI to display the scores, and checks for a win condition where a player reaches a score of 20 to trigger a scene change to the main menu. |
-| `PlayerControls.cs`   | Allows the player object to move up and down within specified bounds using the "moveUp" and "moveDown" keys. The script continuously updates the player's position and velocity based on user input and ensures the player stays within the defined bounds.               |
-| `SceneManagement.cs`  | Allows for the switching of game scenes by providing the name of the target scene to the "ChangeScene" method. It also enables the player to exit the game application using the "QuitApp" method.       |
-| `SideWall.cs`         | Designed to be attached to side walls and serves for scoring by keeping track of when a ball collides with it, identifies the specific wall that was hit, and updates the player's score accordingly. It also can be used to restart the game by sending a message to the ball object to restart the game, possibly after a brief delay, by invoking the "RestartGame" method defined in the "BallControl" script.                 |
-
+| `BucketGravity.cs`    | Simulates the physics of gravity and falling for an object. |
+| `GameManager.cs`      | Handles the game management features, such as changing scenes, pausing and resuming the game, managing the player's level, and resetting the level. |
+| `PlayerMovement.cs`   | Handles the player's movement, including walking and jumping. It uses a combination of physics-based movement (using the Rigidbody2D component) and scripting-based movement (using the transform.Translate() method). |
+| `PlayerPositionHandler.cs`  | Attached to a game object with a trigger collider to handle checkpoint and trap collisions and trigger the corresponding methods. Additionally, this script requires a scriptable object (TransformData) to store the player's position data.       |
+| `TriggerEvent.cs`     | Ensures that the player's position is correctly saved and loaded, and the player's position is correctly changed when they collide with checkpoints or traps. |
+| `UIGameplay.cs`       | Ensures that the pause and resume functionality of the game is correctly handled, and the user can navigate between different game states using the buttons in the UI. |
+| `UIMenu.cs`           | Handles user interface and navigation between different game states are correctly, and the user can easily navigate between the different panels and levels using the buttons in the UI.
+| `VerticalMovement.cs` | Move a game object up and down vertically along a sine wave path. The sine wave path can be controlled by setting the distance, speed, and timeStart variables in the Unity editor.
 
 ## Contributions
 
