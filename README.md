@@ -1,6 +1,6 @@
 # Hopeless
 
-![Screenshot](screenshot.png)
+<img width="960" alt="hopeless" src="https://github.com/William3152/Hopeless/assets/116702856/46dffc32-4c92-431b-a21b-0cc797801919">
 
 Hopeless is a platformer game with dark and creepy theme. 
 In this game, players must go from the start point to end point while dodging obstacle and unlocking path by solving the puzzle.
